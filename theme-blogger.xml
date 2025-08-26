@@ -382,6 +382,8 @@ body#layout::before{content:'Median UI v1.6 Updated(October 01, 2021) by jagodes
 
 /* Author profile */ .admPs{display:flex; max-width:480px;margin:30px 0; padding:12px 12px 15px; background:var(--contentB);border-radius:8px; box-shadow:0 10px 25px -3px rgba(0,0,0,.1)} .admIm{flex-shrink:0; padding:5px 0 0} .admIm .im{width:34px;height:34px} .admI{flex-grow:1; width:calc(100% - 34px);padding:0 12px} .admN::before{content:attr(data-write) ' '; opacity:.7;font-size:90%} .admN::after{content:attr(data-text)} .admA{margin:5px 0 0; font-size:90%; opacity:.9;line-height:1.5em; /*display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden*/} /* Share btn */ .pSh{margin:15px 0;padding:18px 0;border-bottom:1px solid rgba(0,0,0,.05)} .pShc{display:flex;align-items:center;flex-wrap:wrap; position:relative;width:calc(100% + 18px);left:-9px;right:-9px;font-size:13px} .pShc::before{content:attr(data-text);margin:0 9px;flex-shrink:0} .pShc >*{margin:0 5px; display:flex;align-items:center; color:inherit;padding:12px;border-radius:3px;background:#f1f1f0} .pShc .c{color:#fffdfc} .pShc .c svg{fill:#fffdfc} .pShc .c::after{content:attr(aria-label)} .pShc .fb{background:#1778F2} .pShc .wa{background:#128C7E} .pShc .tw{background:#1DA1F2} .pShc a::after{content:attr(data-text);margin:0 3px} .pShc svg, .cpL svg{width:18px;height:18px; margin:0 3px} .shL{position:relative;width:calc(100% + 20px);left:-10px;right:-10px;margin-bottom:20px;display:flex;flex-wrap:wrap;justify-content:center} .shL >*{margin:0 10px 20px;text-align:center} .shL >*::after{content:attr(data-text);font-size:90%;opacity:.7;display:block} .shL a{display:flex;align-items:center;justify-content:center;flex-wrap:wrap; width:65px;height:65px; color:inherit;margin:0 auto 5px;padding:8px;border-radius:26px;background:#f1f1f0} .shL svg{opacity:.8} .cpL{padding-bottom:15px} .cpL::before{content:attr(data-text);display:block;margin:0 0 15px;opacity:.8} .cpL svg{margin:0 4px;opacity:.7} .cpL input{border:0;outline:0; background:transparent;color:rgba(8,16,43,.4); padding:18px 8px;flex-grow:1} .cpL label{color:var(--linkC);display:flex;align-items:center;align-self:stretch; flex-shrink:0;padding:0 8px} .cpLb{display:flex;align-items:center;position:relative;background:#f1f1f0;border-radius:4px 4px 0 0;border-bottom:1px solid rgba(0,0,0,.25); padding:0 8px} .cpLb:hover{border-color:rgba(0,0,0,.42);background:#ececec} .cpLn span{display:block;padding:5px 14px 0;font-size:90%;color:#2e7b32; transition:var(--trans-1);animation:fadein 2s ease forwards; opacity:0;height:22px} /* Comments */ .pCmnts{margin-top:50px} .cmDis{text-align:center;margin-top:20px;opacity:.7} .cmMs{margin-bottom:20px} .cm iframe{width:100%} .cm:not(.cmBr) .cmBrs{background:transparent;position:relative;padding:60px 20px 0;width:calc(100% + 40px);left:-20px;right:-20px} .cmH h3.title{margin:0;flex-grow:1;padding:16px 10px} .cmH .s{margin:0 14px} .cmH .s::before{content:attr(data-text);margin:0 6px;opacity:.7;font-size:90%} .cmH .s::after{content:'\296E';line-height:18px;font-size:17px} .cmAv .im{width:35px;height:35px;border-radius:50%;position:relative} .cmBd.del .cmCo{font-style:italic;font-size:90%;line-height:normal;border:1px dashed rgba(0,0,0,.2);border-radius:3px;margin:.5em 0;padding:15px;opacity:.7; overflow:hidden;text-overflow:ellipsis;white-space:nowrap} .cmHr{line-height:24px; overflow:hidden;text-overflow:ellipsis;white-space:nowrap} .cmHr .d{font-size:90%;opacity:.7} .cmHr .d::before{content:'\00B7';margin:0 7px} .cmHr.a .n{display:inline-flex;align-items:center} .cmHr.a .n::after{content:'\2714';display:flex;align-items:center;justify-content:center;width:14px;height:14px;font-size:8px;background:#519bd6;color:#fefefe;border-radius:50%;margin:0 3px} .cmCo{line-height:1.6em;opacity:.9} .cmC i[rel=image]{font-size:90%; display:block;position:relative; min-height:50px; overflow:hidden;text-overflow:ellipsis;white-space:nowrap; margin:1em auto} .cmC i[rel=image]::before{content:'This feature isn\0027t available!';border:1px dashed rgba(0,0,0,.2);border-radius:3px;padding:10px;display:flex;align-items:center;justify-content:center;position:absolute;top:0;left:0;bottom:0;right:0;background:var(--contentB)} .cmC i[rel=pre], .cmC i[rel=quote]{margin-top:1em;margin-bottom:1em; font-style:normal;line-height:inherit;padding:20px} .cmC i[rel=pre]::before{display:block;width:auto} .cmC i[rel=quote]{display:block;font-style:italic;font-size:inherit;padding:5px 15px} .cmCo img{margin-top:1em;margin-bottom:1em} .cmAc{margin-top:10px} .cmAc a{font-size:90%;color:inherit;opacity:.7;display:inline-flex} .cmAc a::before{content:'\2934';line-height:18px;font-size:16px;transform:rotate(90deg)} .cmAc a::after{content:attr(data-text);margin:0 6px} .cmR{margin:10px 40px 0} .cmRp ~ .cmAc, .cmBd.del ~ .cmAc, .onItm:not(.Rtl) .cmHr .date{display:none} .cmRi:checked ~ .cmRp .thTg{margin-bottom:0} .cmRi:checked ~ .cmRp .thTg::after{content:attr(aria-label)} .cmRi:checked ~ .cmRp .thCh, .cmRi:checked ~ .cmRp .cmR{display:none} .cmAl:checked ~ .cm .cmH .s::before{content:attr(data-new)} .cmAl:checked ~ .cm .cmCn >ol{flex-direction:column-reverse} .thTg{display:inline-flex;align-items:center;margin:15px 0 18px;font-size:90%} .thTg::before{content:'';width:28px;border-bottom:1px solid var(--widgetTac);opacity:.5} .thTg::after{content:attr(data-text);margin:0 12px;opacity:.7} .cmCn ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column} .cmCn li{margin-bottom:18px;position:relative} .cmCn li .cmRbox{margin-top:20px} .cmCn li li{display:flex;flex-wrap:wrap;width:calc(100% + 12px);left:-6px;right:-6px} .cmCn li li:last-child{margin-bottom:0} .cmCn li li .cmAv{flex:0 0 28px;margin:0 6px} .cmCn li li .cmAv .im{width:28px;height:28px} .cmCn li li .cmIn{width:calc(100% - 52px);margin:0 6px} .cmHl >li{padding-left:17.5px} .cmHl >li >.cmAv{position:absolute;left:0;top:12px} .cmHl >li >.cmIn{padding:12px 15px 12px 28px;border:1px solid var(--contentL);border-radius:12px;box-shadow:0 10px 8px -10px rgba(0,0,0,.1)} /* Comments Show/Hide */ #comment:target{margin:0;padding-top:60px} .cmSh:checked ~ .cmShw, .cmShw ~ .cm:not(.cmBr), #comment:target .cmShw, #comment:target .cmSh:checked ~ .cm:not(.cmBr){display:none} .cmSh:checked ~ .cm:not(.cmBr), #comment:target .cm:not(.cmBr), #comment:target .cmSh:checked ~ .cmShw{display:block} .cmBtn{display:block;padding:20px;text-align:center;max-width:100%} .cmBtn.ln:hover{color:var(--linkB)} /* Comments Pop-up */ #comment:target .cmSh:checked ~ .cm.cmBr{bottom:-100%;opacity:0;visibility:hidden} #comment:target .cmSh:checked ~ .cm.cmBr .fCls{opacity:0;visibility:hidden}
 
+/* Chapter List Widget */ .chapterList{background:var(--contentB);border-radius:8px;overflow:hidden;margin-bottom:30px;box-shadow:0 2px 8px rgba(0,0,0,.08)} .chapterList .widget-title{background:var(--linkB);color:#fff;padding:15px 20px;margin:0;font-size:16px;font-weight:700} .chapterControls{padding:15px 20px;border-bottom:1px solid var(--contentL);background:#f8f9fa} .chapterControls select, .chapterControls .sortBtn{padding:8px 12px;border:1px solid var(--contentL);border-radius:4px;background:var(--contentB);color:var(--bodyC);font-size:13px;margin-right:10px;cursor:pointer} .chapterControls .sortBtn{display:inline-flex;align-items:center;text-decoration:none} .chapterControls .sortBtn:hover{background:var(--linkB);color:#fff;border-color:var(--linkB)} .chapterList ul{list-style:none;margin:0;padding:0} .chapterItem{border-bottom:1px solid var(--contentL);padding:12px 20px;transition:var(--trans-1)} .chapterItem:last-child{border-bottom:none} .chapterItem:hover{background:#f8f9fa} .chapterItem a{color:var(--bodyC);text-decoration:none;display:block;font-weight:500} .chapterItem a:hover{color:var(--linkC)} .chapterMeta{font-size:12px;color:var(--bodyCa);margin-top:5px;display:flex;justify-content:space-between} .chapterVolume{background:var(--linkB);color:#fff;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600} .chapterDate{opacity:.7} .noChapters{padding:30px 20px;text-align:center;color:var(--bodyCa);font-style:italic} .chapterLoading{padding:20px;text-align:center;color:var(--bodyCa)} .chapterList.hidden{display:none}
+
 /* Widget Style */ .widget .imgThm{display:block;position:absolute;top:50%;left:50%;max-width:none;max-height:108%; font-size:12px;text-align:center; transform:translate(-50%, -50%)} .widget .title{margin:0 0 25px; font-size:var(--widgetT);font-weight:var(--widgetTw);position:relative} .widget .title::after{content:'';display:inline-block;vertical-align:middle; width:var(--widgetTa); margin:0 10px;border-bottom:1px solid var(--widgetTac); opacity:.5} .widget input[type=text], .widget input[type=email], .widget textarea{display:block;width:100%;outline:0;border:0;border-bottom:1px solid rgba(0,0,0,.25);border-radius:4px 4px 0 0;background:#f3f3f4; padding:25px 16px 8px 16px; line-height:1.6em; transition:var(--trans-1)} .widget input[type=text]:hover, .widget input[type=email]:hover, .widget textarea:hover{border-color:rgba(0,0,0,.42);background:#ececec} .widget input[type=text]:focus, .widget input[type=email]:focus, .widget textarea:focus, .widget input[data-text=fl], .widget textarea[data-text=fl]{border-color:var(--linkB);background:#ececec} .widget input[type=button], .widget input[type=submit]{display:inline-flex;align-items:center; padding:12px 30px; outline:0;border:0;border-radius:4px; color:#fffdfc; background:var(--linkB); font-size:14px; white-space:nowrap;overflow:hidden;max-width:100%} .widget input[type=button]:hover, .widget input[type=submit]:hover{opacity:.7} /* Widget BlogSearch */ .BlogSearch{position:fixed;top:0;left:0;right:0;z-index:12} .BlogSearch form{position:relative;min-width:320px} .BlogSearch input{position:relative;display:block;background:var(--srchB);border:0;outline:0;margin-top:-100%;padding:10px 55px;width:100%;height:72px;transition:var(--trans-1);z-index:2;border-radius:0 0 12px 12px} .BlogSearch input:focus{margin-top:0;box-shadow:0 10px 40px rgba(0,0,0,.2)} .BlogSearch input:focus ~ button.sb{opacity:.9} .BlogSearch .sb{position:absolute;left:0;top:0;display:flex;align-items:center;padding:0 20px;z-index:3;opacity:.7;height:100%;background:transparent;border:0;outline:0} .BlogSearch .sb svg{width:18px;height:18px;stroke:var(--srchI)} .BlogSearch button.sb{left:auto;right:0;opacity:0;font-size:13px} .BlogSearch button.sb::before{content:'\2715'} @media screen and (min-width:897px){header .BlogSearch{position:static;z-index:1} header .BlogSearch input{margin-top:0;padding:12px 42px;height:auto;font-size:13px;border-radius:12px;background:transparent; width:calc(100% + 26px);left:-13px;right:-13px;transition:var(--trans-2)} header .BlogSearch input:hover{background:var(--transB)} header .BlogSearch input:focus{box-shadow:none;margin-top:0; background:var(--transB)} header .BlogSearch .sb{padding:0} header .BlogSearch .fCls{display:none}} /* Widget Profile */ .prfI:checked ~ .mainWrp .wPrf{top:0;opacity:1;visibility:visible} .prfI:checked ~ .mainWrp .wPrf ~ .fCls{z-index:3;opacity:1;visibility:visible} .wPrf{display:flex;position:absolute;top:-5px;right:0;background:var(--contentB);border-radius:16px 5px 16px 16px;width:260px;max-height:400px;box-shadow:0 10px 25px -3px rgba(0,0,0,.1);transition:var(--trans-1);z-index:4;opacity:0;visibility:hidden;overflow:hidden} .wPrf .prfS{background:inherit} .wPrf.tm .im{width:39px;height:39px;flex-shrink:0} .wPrf.sl .im{width:60px;height:60px;border-radius:26px;margin:0 auto} .wPrf.sl .prfC{text-align:center} .prfH .c{display:none} .prfL{display:flex;align-items:center;position:relative;width:calc(100% + 16px);left:-8px;right:-8px;border-radius:8px;padding:8px 0;transition:var(--trans-1)} .prfL::after{content:attr(data-text);margin:0 2px} .prfL >*{margin:0 8px;flex-shrink:0} a.prfL:hover{background:var(--transB)} .sInf{margin-bottom:0} .sInf .sDt .l{display:inline-flex;align-items:center} .sInf .sTxt{margin:5px auto 0;max-width:320px;font-size:93%;opacity:.9;line-height:1.5em} .sInf .sTxt a{text-decoration:underline} .sInf .lc{display:flex;justify-content:center;margin:10px 0 0;opacity:.8;font-size:90%} .sInf .lc svg{width:16px;height:16px} .sInf .lc::after{content:attr(data-text);margin:0 4px} /* Widget FeaturedPost */ .itemFt .itm >*{flex:0 0 310px;width:310px} .itemFt .itm >*:last-child{flex:1 0 calc(100% - 310px - 40px);width:calc(100% - 310px - 40px)} /* Widget ToC */ .tocL{position:fixed;top:0;bottom:0;right:-280px;width:280px;transition:var(--trans-1);z-index:5} .tocLi{width:100%;height:100%;position:relative;background:var(--contentB);box-shadow:0 5px 30px 0 rgba(0,0,0,.05);z-index:2;border-radius:12px 0 0 12px} .tocLs{position:relative;top:20px;background:inherit} .tocIn{padding:60px 0 0;overflow-y:scroll;overflow-x:hidden;width:100%;height:calc(100vh - var(--headerH))} .tocC{position:absolute;left:-45px;top:105px;transition:var(--trans-1)} .tocC span{display:flex;align-items:center;justify-content:center;width:45px;height:40px;border-radius:20px 0 0 20px;background:var(--contentB);transition:inherit;z-index:1;box-shadow:0 5px 20px 0 rgba(0,0,0,.1)} .tocL svg.rad{width:20px;height:20px;position:absolute;right:-2px;top:-19px;fill:var(--contentB);transform:rotate(92deg);transition:inherit} .tocL svg.rad.in{top:auto;bottom:-19px;transform:rotate(-2deg)} .tocC span svg{opacity:.8} .tocT{display:flex;width:100%} .tocL ol{margin:0;padding-inline-start:35px;line-height:1.6em} .tocL li ol{margin:5px 0 10px;list-style:lower-roman} .tocL a{color:inherit;opacity:.8} .tocL a:hover{text-decoration:underline} .tocI:checked ~ .tocL{right:0;z-index:10} .tocI:checked ~ .tocL .tocC{opacity:0;visibility:hidden} .tocI:checked ~ .tocL .fCls{background:rgba(0,0,0,.25);opacity:1;visibility:visible} /* Widget PopularPosts */ .itemPp{counter-reset:p-cnt} .itemPp .iCtnt{display:flex} .itemPp >*:not(:last-child){margin-bottom:25px} .itemPp .iCtnt::before{flex-shrink:0;content:'0' counter(p-cnt);counter-increment:p-cnt;width:25px;opacity:.6;font-size:85%;line-height:1.8em} .iInr{flex:1 0;width:calc(100% - 25px)} .iTtl{font-size:.95rem;font-weight:700;line-height:1.5em} .iTtmp{display:inline-flex} .iTtmp::after{content:'\2014';margin:0 5px; color:var(--widgetTac);opacity:.7} .iInf{margin:0 25px 8px; overflow:hidden;white-space:nowrap;text-overflow:ellipsis} .iInf .pLbls{display:inline;opacity:.8} /* Widget Label */ /* List Label */ .wL ul{display:flex;flex-wrap:wrap; list-style:none;margin:0;padding:0; position:relative;width:calc(100% + 30px);left:-15px;right:-15px; font-size:13px} .wL li{width:calc(50% - 10px); margin:0 5px} .wL li >*{display:flex;align-items:baseline;justify-content:space-between; color:inherit;width:100%; padding:8px 10px;border-radius:4px;line-height:20px} .wL li >* svg{width:18px;height:18px;opacity:.8} .wL li >*:hover svg, .wL li >div svg{fill:var(--linkC) !important;stroke:var(--linkC)} .wL li >*:hover .lbC, .wL li >div .lbC{color:var(--linkC)} .wL .lbR{display:inline-flex;align-items:center} .wL .lbR .lbC{margin:0 5px} .wL .lbAl{max-height:0; overflow:hidden; transition:var(--trans-4)} .wL .lbM{display:inline-block; margin-top:10px;line-height:20px; color:var(--linkC)} .wL:not(.cl) .lbM{font-size:90%} .wL .lbM::before{content:attr(data-show)} .wL .lbM::after, .wL .lbC::after{content:attr(data-text)} .wL .lbM::after{margin:0 8px} .wL .lbT{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;opacity:.7} .wL .lbC, .wL .lbM::after{flex-shrink:0;font-size:12px;opacity:.7} .lbIn:checked ~ .lbAl{max-height:1000vh} .lbIn:checked ~ .lbM::before{content:attr(data-hide)} .lbIn:checked ~ .lbM::after{visibility:hidden} .wL.bg ul{width:calc(100% + 10px);left:-5px;right:-5px} .wL.bg li{margin-bottom:10px} .wL.bg li >*{background:#f6f6f6} /* Cloud Label */ .wL.cl{display:flex;flex-wrap:wrap} .wL.cl >*, .wL.cl .lbAl >*{display:block;max-width:100%} .wL.cl .lbAl{display:flex;flex-wrap:wrap} .wL.cl .lbC::before{content:'';margin:0 4px;flex:0 0} .wL.cl .lbN{display:flex;justify-content:space-between; margin:0 0 8px;padding:9px 13px; border:1px solid var(--contentL);border-radius:3px; color:inherit;line-height:20px} .wL.cl .lbN:hover .lbC, .wL.cl div.lbN .lbC{color:var(--linkB); opacity:1} .wL.cl .lbN:not(div):hover, .wL.cl div.lbN{border-color:var(--linkB)} .wL.cl .lbSz{display:flex} .wL.cl .lbSz::after{content:'';margin:0 4px;flex:0 0} /* Widget ContactForm */ .ContactForm{max-width:500px; font-family:var(--fontB);font-size:14px} .cArea:not(:last-child){margin-bottom:25px} .cArea label{display:block;position:relative} .cArea label .n{display:block;position:absolute;left:0;right:0;top:0; color:rgba(8,16,43,.4);line-height:1.6em;padding:15px 16px 0;border-radius:4px 4px 0 0;transition:var(--trans-1)} .cArea label .n.req::after{content:'*';font-size:85%} .cArea textarea{height:100px} .cArea textarea:focus, .cArea textarea[data-text=fl]{height:200px} .cArea input:focus ~ .n, .cArea textarea:focus ~ .n, .cArea input[data-text=fl] ~ .n, .cArea textarea[data-text=fl] ~ .n{padding-top:5px;color:rgba(8,16,43,.7);font-size:90%;background:#ececec} .cArea .h{display:block;font-size:90%;padding:5px 16px 0;opacity:.7;line-height:normal} .nArea .contact-form-error-message-with-border{color:#d32f2f} .nArea .contact-form-success-message-with-border{color:#2e7b32} /* Widget Sliders */ .sldO{position:relative;display:flex;overflow-y:hidden;overflow-x:scroll; scroll-behavior:smooth;scroll-snap-type:x mandatory;list-style:none;margin:0;padding:0; -ms-overflow-style: none} .sldO.no-items{display:none} .sldO.no-items + .section{margin-top:0} .sldO .widget:not(:first-child){margin-top:0} .sldO .widget{position:relative;flex:0 0 100%;width:100%;background:transparent; outline:0;border:0} .sldC{position:relative} .sldS{position:absolute;top:0;left:0;width:100%;height:100%;scroll-snap-align:center;z-index:-1} .sldIm{background-repeat:no-repeat;background-size:cover;background-position:center;background-color:var(--transB);display:block;padding-top:40%;border-radius:3px;color:#fffdfc;font-size:13px} .sldT{position:absolute;bottom:0;left:0;right:0;display:block;padding:20px; background:linear-gradient(0deg, rgba(30,30,30,.1) 0%, rgba(30,30,30,.05) 60%, rgba(30,30,30,0) 100%); border-radius:0 0 3px 3px} .sldS{animation-name:tonext, snap;animation-timing-function:ease;animation-duration:4s;animation-iteration-count:infinite} .sldO .widget:last-child .sldS{animation-name:tostart, snap} .Rtl .sldS{animation-name:tonext-rev, snap} .Rtl .sldO .widget:last-child .sldS{animation-name:tostart-rev, snap} .sldO:hover .widget .sldS, .Rtl .sldO:hover .widget .sldS, .sldO:focus-within .widget .sldS, .Rtl .sldO:focus-within .widget .sldS{animation-name:none} @media (prefers-reduced-motion:reduce){.sldS, .Rtl .sldS{animation-name:none}} @media screen and (max-width:640px){.sldO{width:calc(100% + 40px);left:-20px;right:-20px;padding:0 12.5px 10px} .sldO .widget{flex:0 0 90%;width:90%;margin:0 7.5px; box-shadow:0 10px 8px -8px rgb(0 0 0 / 12%)} .sldT{padding:10px 15px} .sldIm{font-size:12px}}
 
 /* Sticky Ad */ .ancrA{position:fixed;bottom:0;left:0;right:0;min-height:70px;max-height:200px;padding:5px;box-shadow:0 -6px 18px 0 rgba(9,32,76,.1); transition:var(--trans-1);display:flex;align-items:center;justify-content:center;background:#fffdfc;z-index:50;border-top:1px solid var(--contentL)} .ancrC{width:40px;height:30px;display:flex;align-items:center;justify-content:center;border-radius:12px 0 0;border:1px solid var(--contentL);border-bottom:0;border-right:0;position:absolute;right:0;top:-30px;background:inherit} .ancrC::after{content:'\2715';line-height:18px;font-size:14px} .ancrCn{flex-grow:1;overflow:hidden;display:block;position:relative} .ancrI:checked ~ .ancrA{padding:0;min-height:0} .ancrI:checked ~ .ancrA .ancrCn{display:none} /* Error Page */ .erroP{display:flex;align-items:center;justify-content:center;height:100vh;text-align:center;padding:0} .erroC{width:calc(100% - 40px);max-width:450px;margin:auto;font-family:var(--fontBa)} .erroC h3{font-size:1.414rem;font-family:inherit} .erroC h3 span{display:block;font-size:140px;line-height:.8;margin-bottom:-1rem;color:#ebebf0} .erroC p{margin:30px 5%;line-height:1.6em;opacity:.7} .erroC .button{margin:0;padding-left:2em;padding-right:2em;font-size:14px}
@@ -3256,6 +3258,309 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                             </div>
                           </b:includable>
                         </b:widget>
+                        <b:widget cond='data:view.isPost' id='ChapterList1' locked='false' title='Chapter List' type='HTML' version='2' visible='true'>
+                          <b:widget-settings>
+                            <b:widget-setting name='content'><![CDATA[<!--[ Automatic Chapter List for Series/Novel posts ]-->]]></b:widget-setting>
+                          </b:widget-settings>
+                          <b:includable id='main'>
+                            <div class='chapterList widget' id='chapterListWidget'>
+                              <h3 class='widget-title'><data:title/></h3>
+                              <div class='chapterControls'>
+                                <select id='volumeFilter'>
+                                  <option value='all'>All Volumes</option>
+                                </select>
+                                <a href='#' class='sortBtn' id='timeSortBtn' data-sort='newest'>
+                                  <svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'>
+                                    <path d='M3 6h18M7 12h10m-7 6h4'/>
+                                  </svg>
+                                  Sort: Newest
+                                </a>
+                              </div>
+                              <div class='chapterLoading' id='chapterLoading'>Loading chapters...</div>
+                              <ul class='chapterItems' id='chapterItems'></ul>
+                              <div class='noChapters hidden' id='noChapters'>No chapters found for this series.</div>
+                            </div>
+                            
+                            <script>
+                            //<![CDATA[
+                            (function() {
+                              // Chapter List functionality
+                              const VOLUME_WORDS = ['VOLUME', 'VOL', 'V'];
+                              const CHAPTER_WORDS = ['CHAPTER', 'CH', 'C'];
+                              const INTERLUDE_WORDS = ['INTERLUDE', 'INT'];
+                              const ILUSTRASI_WORDS = ['ILUSTRASI', 'ILUS', 'ILLUSTRATION'];
+                              
+                              function shortenTitle(title) {
+                                let shortened = title;
+                                
+                                // Replace VOLUME with VOL
+                                VOLUME_WORDS.forEach(word => {
+                                  const regex = new RegExp('\\b' + word + '\\b', 'gi');
+                                  shortened = shortened.replace(regex, 'VOL');
+                                });
+                                
+                                // Replace CHAPTER with CH
+                                CHAPTER_WORDS.forEach(word => {
+                                  const regex = new RegExp('\\b' + word + '\\b', 'gi');
+                                  shortened = shortened.replace(regex, 'CH');
+                                });
+                                
+                                // Replace INTERLUDE with INT
+                                INTERLUDE_WORDS.forEach(word => {
+                                  const regex = new RegExp('\\b' + word + '\\b', 'gi');
+                                  shortened = shortened.replace(regex, 'INT');
+                                });
+                                
+                                // Replace ILUSTRASI with ILUS
+                                ILUSTRASI_WORDS.forEach(word => {
+                                  const regex = new RegExp('\\b' + word + '\\b', 'gi');
+                                  shortened = shortened.replace(regex, 'ILUS');
+                                });
+                                
+                                return shortened;
+                              }
+                              
+                              function extractVolumeNumber(title) {
+                                // Extract volume number from title
+                                const volMatch = title.match(/VOL(?:UME)?\s*(\d+)/i);
+                                return volMatch ? parseInt(volMatch[1]) : 0;
+                              }
+                              
+                              function extractChapterNumber(title) {
+                                // Extract chapter number from title
+                                const chMatch = title.match(/CH(?:APTER)?\s*(\d+)/i);
+                                return chMatch ? parseInt(chMatch[1]) : 0;
+                              }
+                              
+                              function isSeriesPost() {
+                                // Check if current post has SERIES or NOVEL label
+                                const labels = document.querySelectorAll('.pLbls a');
+                                for (let label of labels) {
+                                  const labelText = label.textContent.toUpperCase();
+                                  if (labelText.includes('SERIES') || labelText.includes('NOVEL')) {
+                                    return true;
+                                  }
+                                }
+                                return false;
+                              }
+                              
+                              function getCurrentSeriesName() {
+                                // Extract series name from current post title
+                                const postTitle = document.querySelector('.pTtl.itm')?.textContent || '';
+                                // Remove common suffixes to get series name
+                                let seriesName = postTitle
+                                  .replace(/\s*(VOL|VOLUME)\s*\d+.*/i, '')
+                                  .replace(/\s*(CH|CHAPTER)\s*\d+.*/i, '')
+                                  .trim();
+                                return seriesName;
+                              }
+                              
+                              async function fetchBlogPosts() {
+                                try {
+                                  // Get blog URL
+                                  const blogUrl = window.location.origin;
+                                  
+                                  // Fetch posts with CHAPTER label via Blogger API
+                                  const response = await fetch(`${blogUrl}/feeds/posts/default/-/CHAPTER?alt=json&max-results=100`);
+                                  const data = await response.json();
+                                  
+                                  if (data.feed && data.feed.entry) {
+                                    return data.feed.entry;
+                                  }
+                                  return [];
+                                } catch (error) {
+                                  console.error('Error fetching posts:', error);
+                                  return [];
+                                }
+                              }
+                              
+                              function filterChaptersBySeriesName(posts, seriesName) {
+                                return posts.filter(post => {
+                                  const title = post.title.$t;
+                                  return title.toLowerCase().includes(seriesName.toLowerCase());
+                                });
+                              }
+                              
+                              function renderChapterList(chapters, volumeFilter = 'all', sortOrder = 'newest') {
+                                const chapterItems = document.getElementById('chapterItems');
+                                const noChapters = document.getElementById('noChapters');
+                                
+                                if (!chapters || chapters.length === 0) {
+                                  chapterItems.innerHTML = '';
+                                  noChapters.classList.remove('hidden');
+                                  return;
+                                }
+                                
+                                // Filter by volume
+                                let filteredChapters = chapters;
+                                if (volumeFilter !== 'all') {
+                                  const vol = parseInt(volumeFilter);
+                                  filteredChapters = chapters.filter(ch => extractVolumeNumber(ch.title.$t) === vol);
+                                }
+                                
+                                // Sort chapters
+                                filteredChapters.sort((a, b) => {
+                                  if (sortOrder === 'newest') {
+                                    return new Date(b.published.$t) - new Date(a.published.$t);
+                                  } else {
+                                    return new Date(a.published.$t) - new Date(b.published.$t);
+                                  }
+                                });
+                                
+                                // Render chapters
+                                chapterItems.innerHTML = '';
+                                filteredChapters.forEach(chapter => {
+                                  const title = chapter.title.$t;
+                                  const shortTitle = shortenTitle(title);
+                                  const volumeNum = extractVolumeNumber(title);
+                                  const chapterNum = extractChapterNumber(title);
+                                  const publishDate = new Date(chapter.published.$t).toLocaleDateString();
+                                  
+                                  // Get chapter URL
+                                  let chapterUrl = '';
+                                  if (chapter.link) {
+                                    const altLink = chapter.link.find(link => link.rel === 'alternate');
+                                    chapterUrl = altLink ? altLink.href : '#';
+                                  }
+                                  
+                                  const li = document.createElement('li');
+                                  li.className = 'chapterItem';
+                                  li.innerHTML = `
+                                    <a href="${chapterUrl}">${shortTitle}</a>
+                                    <div class="chapterMeta">
+                                      ${volumeNum > 0 ? `<span class="chapterVolume">Vol ${volumeNum}</span>` : ''}
+                                      <span class="chapterDate">${publishDate}</span>
+                                    </div>
+                                  `;
+                                  chapterItems.appendChild(li);
+                                });
+                                
+                                noChapters.classList.add('hidden');
+                              }
+                              
+                              function populateVolumeFilter(chapters) {
+                                const volumeFilter = document.getElementById('volumeFilter');
+                                const volumes = new Set();
+                                
+                                chapters.forEach(chapter => {
+                                  const volNum = extractVolumeNumber(chapter.title.$t);
+                                  if (volNum > 0) {
+                                    volumes.add(volNum);
+                                  }
+                                });
+                                
+                                // Clear existing options except "All Volumes"
+                                volumeFilter.innerHTML = '<option value="all">All Volumes</option>';
+                                
+                                // Add volume options
+                                Array.from(volumes).sort((a, b) => a - b).forEach(vol => {
+                                  const option = document.createElement('option');
+                                  option.value = vol;
+                                  option.textContent = `Volume ${vol}`;
+                                  volumeFilter.appendChild(option);
+                                });
+                              }
+                              
+                              async function initializeChapterList() {
+                                const widget = document.getElementById('chapterListWidget');
+                                const loading = document.getElementById('chapterLoading');
+                                
+                                // Check if this is a series/novel post
+                                if (!isSeriesPost()) {
+                                  widget.classList.add('hidden');
+                                  return;
+                                }
+                                
+                                const seriesName = getCurrentSeriesName();
+                                if (!seriesName) {
+                                  widget.classList.add('hidden');
+                                  return;
+                                }
+                                
+                                // Fetch and filter chapters
+                                const allPosts = await fetchBlogPosts();
+                                const chapterPosts = filterChaptersBySeriesName(allPosts, seriesName);
+                                
+                                loading.style.display = 'none';
+                                
+                                if (chapterPosts.length === 0) {
+                                  document.getElementById('noChapters').classList.remove('hidden');
+                                  return;
+                                }
+                                
+                                // Populate volume filter
+                                populateVolumeFilter(chapterPosts);
+                                
+                                // Initial render
+                                renderChapterList(chapterPosts);
+                                
+                                // Set up event listeners
+                                document.getElementById('volumeFilter').addEventListener('change', function() {
+                                  const sortBtn = document.getElementById('timeSortBtn');
+                                  const sortOrder = sortBtn.dataset.sort;
+                                  renderChapterList(chapterPosts, this.value, sortOrder);
+                                });
+                                
+                                document.getElementById('timeSortBtn').addEventListener('click', function(e) {
+                                  e.preventDefault();
+                                  const currentSort = this.dataset.sort;
+                                  const newSort = currentSort === 'newest' ? 'oldest' : 'newest';
+                                  this.dataset.sort = newSort;
+                                  this.innerHTML = `
+                                    <svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'>
+                                      <path d='M3 6h18M7 12h10m-7 6h4'/>
+                                    </svg>
+                                    Sort: ${newSort === 'newest' ? 'Newest' : 'Oldest'}
+                                  `;
+                                  
+                                  const volumeFilter = document.getElementById('volumeFilter');
+                                  renderChapterList(chapterPosts, volumeFilter.value, newSort);
+                                });
+                              }
+                              
+                              // Initialize when DOM is ready
+                              if (document.readyState === 'loading') {
+                                document.addEventListener('DOMContentLoaded', initializeChapterList);
+                              } else {
+                                initializeChapterList();
+                              }
+                              
+                              // Auto-shorten titles for CHAPTER tagged posts on page load
+                              function autoShortenTitles() {
+                                // Check if current post has CHAPTER label
+                                const labels = document.querySelectorAll('.pLbls a');
+                                let isChapterPost = false;
+                                
+                                for (let label of labels) {
+                                  if (label.textContent.toUpperCase().includes('CHAPTER')) {
+                                    isChapterPost = true;
+                                    break;
+                                  }
+                                }
+                                
+                                if (isChapterPost) {
+                                  const titleElement = document.querySelector('.pTtl.itm');
+                                  if (titleElement) {
+                                    const originalTitle = titleElement.textContent;
+                                    const shortenedTitle = shortenTitle(originalTitle);
+                                    if (originalTitle !== shortenedTitle) {
+                                      titleElement.textContent = shortenedTitle;
+                                    }
+                                  }
+                                }
+                              }
+                              
+                              // Initialize title shortening
+                              if (document.readyState === 'loading') {
+                                document.addEventListener('DOMContentLoaded', autoShortenTitles);
+                              } else {
+                                autoShortenTitles();
+                              }
+                              
+                            })();
+                            //]]>
+                            </script>
+                          </b:includable>
                       </b:section>
               
                       <!--[ Sidebar sticky ]-->
@@ -3495,6 +3800,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
       <script>/*<![CDATA[*/ function darkMode(){localStorage.setItem("mode","darkmode"===localStorage.getItem("mode")?"light":"darkmode"),"darkmode"===localStorage.getItem("mode")?document.querySelector("#mainCont").classList.add("drK"):document.querySelector("#mainCont").classList.remove("drK")}; function headScroll() {const distanceY = window.pageYOffset || document.documentElement.scrollTop, shrinkOn = 40, commentEl = document.getElementById('header');if (distanceY > shrinkOn) {commentEl.classList.add("stick");} else {commentEl.classList.remove("stick");} } window.addEventListener('scroll', headScroll); 
 /* lazy youtube */ ( function() {var youtube = document.querySelectorAll(".lazyYt"); for (var i = 0; i < youtube.length; i++) {var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg"; var image = new Image(); image.setAttribute("class", "lazy"); image.setAttribute("data-src",source); image.setAttribute("src","data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="); image.setAttribute("alt","Youtube video"); image.addEventListener( "load", function() {youtube[ i ].appendChild( image );}( i ) ); youtube[i].addEventListener( "click", function() {var iframe = document.createElement( "iframe" ); iframe.setAttribute( "frameborder", "0" ); iframe.setAttribute( "allowfullscreen", "" ); iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" ); this.innerHTML = ""; this.appendChild( iframe ); }); }; })();
 /* Lightbox image script, source: kompiajaib.com/2021/09/update-image-lightbox-dengan-css-dan.html */ for (var imageslazy = document.querySelectorAll('.pS .separator img, .pS .tr-caption-container img, .pS .psImg >img, .pS .btImg >img'), i = 0; i < imageslazy.length; i++) imageslazy[i].setAttribute('onclick', 'return false'); function wrap(o, t, e) {for (var i = document.querySelectorAll(t), c = 0; c < i.length; c++) {var a = o + i[c].outerHTML + e; i[c].outerHTML = a} } wrap('<div class="zmImg">', '.pS .separator >a', '</div>'); wrap('<div class="zmImg">', '.pS .tr-caption-container td >a', '</div>'); wrap('<div class="zmImg">', '.pS .separator >img', '</div>'); wrap('<div class="zmImg">', '.pS .tr-caption-container td >img', '</div>'); wrap('<div class="zmImg">', '.pS .psImg >img', '</div>'); wrap('<div class="zmImg">', '.pS .btImg >img', '</div>'); for (var containerimg = document.getElementsByClassName('zmImg'), i = 0; i < containerimg.length; i++) containerimg[i].onclick = function() {this.classList.toggle('s');};
+/* Title Shortening for CHAPTER posts */ function shortenPostTitle() { const VOLUME_WORDS = ['VOLUME', 'VOL', 'V']; const CHAPTER_WORDS = ['CHAPTER', 'CH', 'C']; const INTERLUDE_WORDS = ['INTERLUDE', 'INT']; const ILUSTRASI_WORDS = ['ILUSTRASI', 'ILUS', 'ILLUSTRATION']; function shortenTitle(title) { let shortened = title; VOLUME_WORDS.forEach(word => { const regex = new RegExp('\\b' + word + '\\b', 'gi'); shortened = shortened.replace(regex, 'VOL'); }); CHAPTER_WORDS.forEach(word => { const regex = new RegExp('\\b' + word + '\\b', 'gi'); shortened = shortened.replace(regex, 'CH'); }); INTERLUDE_WORDS.forEach(word => { const regex = new RegExp('\\b' + word + '\\b', 'gi'); shortened = shortened.replace(regex, 'INT'); }); ILUSTRASI_WORDS.forEach(word => { const regex = new RegExp('\\b' + word + '\\b', 'gi'); shortened = shortened.replace(regex, 'ILUS'); }); return shortened; } const labels = document.querySelectorAll('.pLbls a'); let isChapterPost = false; for (let label of labels) { if (label.textContent.toUpperCase().includes('CHAPTER')) { isChapterPost = true; break; } } if (isChapterPost) { const titleElements = document.querySelectorAll('.pTtl a, .pTtl.itm'); titleElements.forEach(titleEl => { const originalTitle = titleEl.textContent; const shortenedTitle = shortenTitle(originalTitle); if (originalTitle !== shortenedTitle) { titleEl.textContent = shortenedTitle; } }); } } window.addEventListener('DOMContentLoaded', shortenPostTitle);
 Defer.dom('.lazy', 100, 'loaded', null, {rootMargin:'1px'}),'undefined'!=typeof infinite_scroll&&infinite_scroll.on('load',function(){Defer.dom('.lazy', 100, 'loaded', null, {rootMargin:'1px'}) }); /*]]>*/</script>
       
       <b:if cond='data:blog.analyticsAccountNumber'>
