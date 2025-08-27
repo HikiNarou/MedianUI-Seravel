@@ -3561,6 +3561,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                             //]]>
                             </script>
                           </b:includable>
+                        </b:widget>
                       </b:section>
               
                       <!--[ Sidebar sticky ]-->
